@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org2001/XMLSchema-instance">
+	<Name>ILLiad OLE</Name>
+	<Author>Jennie Brown</Author>
+	<Version>1.0</Version>
+	<Active>true</Active>
+	<Description>OLE addon to improve workflow</Description>
+	<Forms>
+		<Form>FormRequest</Form>
+	</Forms>
+	<Settings>
+		<Setting name="OLEUsername" value="" type="string">
+			<Description>Required: Username for automatic OLE login</Description>
+		</Setting>
+		<Setting name="OLEPassword" value="" type="string">
+			<Description>Required: Password for automatic OLE login</Description>
+		</Setting>
+	</Settings>
+	<Files>
+		<File>HelloWorld.lua</File>
+	</Files>
+</Configuration>
+	
